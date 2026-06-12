@@ -32,7 +32,7 @@
             align-items: center;
             min-height: 100vh;
         }
-        
+
         .card {
             display: flex;
             flex-direction: column;
@@ -40,7 +40,7 @@
             gap: 10px;
             padding: 5px;
             border-radius: 15px;
-            max-width: 300px;
+            max-width: 350px;
             min-height: 150px;
             background: linear-gradient(75deg, rgb(70, 0, 128), rgb(5, 4, 66));
             box-shadow: 0 0 15px #2a56c5;
@@ -54,17 +54,19 @@
             margin-top: 25px;
 
         }
-        
-        img {
+
+        .avatar img {
             max-width: 25%;
             border-radius: 50%;
             object-fit: cover;
         }
+
         .stats {
             display: flex;
             justify-content: space-evenly;
             gap: 15px;
         }
+
         .stat {
             display: flex;
             flex-direction: column;
@@ -83,8 +85,9 @@
             align-items: center;
             padding: 10px;
             border-radius: 15px;
-            background: #233a72;            
+            background: #233a72;
         }
+
         .destacado {
             background: #2a56c5;
         }
@@ -92,15 +95,22 @@
         .social {
             display: flex;
             justify-content: center;
-            gap: 25px;
-            flex-wrap: wrap;
+            text-align: center;
+            gap: 15px;
+            flex-wrap: nowrap;
 
         }
 
         .social a {
-            padding: 15px;
-            border-radius: 20px;
-            background-color: #122041;
+            padding: 10px;
+            border-radius: 50%;
+            background-color: #580886;
+        }
+
+        .social a img {
+            width: 28px;
+            height: 28px;
+            display: block;
         }
 
         a:hover {
@@ -112,8 +122,6 @@
         .foot {
             margin-top: auto;
         }
-
-
     </style>
 </head>
 
@@ -132,14 +140,25 @@
             </section>
             <nav class="links">
                 <a href="https://pokedex-hoenn-version.netlify.app/" class="link destacado">🌟 Mi proyecto estrella</a>
-                <a href="https://github.com/GioXdaZ/Pokedex-Hoenn-Version-React" class="link">📝 CODE GITHUB</a>
+                <a href="https://github.com/GioXdaZ/Pokedex-Hoenn-Version-React" class="link">📝 GitHub proyecto estrella</a>
                 <a href="https://github.com/GioXdaZ" class="link">💼 GitHub</a>
                 <a href="https://www.youtube.com/@Crows616" class="link">📺 YouTube</a>
             </nav>
             <div class="social">
-                <a href="#">IG</a><a href="#">X</a><a href="#">in</a><a href="#">GH</a>
+                <a href="#">
+                    <img src="icons/black-instagram-transparent-logo-10671.svg" alt="IG">
+                </a>
+                <a href="#">
+                    <img src="icons/twitter-logo-black-outline-20846.svg" alt="X">
+                </a>
+                <a href="#">
+                    <img src="icons/black-linkedin-logo-15915.svg" alt="in">
+                </a>
+                <a href="https://github.com/GioXdaZ">
+                    <img src="icons/github-logo-6532.svg" alt="GH">
+                </a>
             </div>
-            <footer class="foot">Hecho con 💙 y Flexbox</footer>
+            <footer class="foot">Hecho con 💙 y Flexbox by <strong>GioXdaZ</strong></footer>
         </main>
     </div>
 </body>
